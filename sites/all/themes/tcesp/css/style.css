@@ -27,7 +27,7 @@ h2{
 }
   
 /* formatacao do menu superior */  
-#navbar .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav>li>a{
+#navbar .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav>li>a, .navbar-nav{
 	position: relative;
     float: left;
     width: 100%;
@@ -44,15 +44,20 @@ h2{
     color: #fff !important;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
     -webkit-font-smoothing: antialiased;
-    border: 0;
-    border-bottom: 3px solid #75a9f4;
     margin: 0px;
 	font-size: 16px;
-    font-weight: bold;
+}
+
+.navbar-nav{
+    width: 100%;
+    background-color: #050505;
+	border: 0;
+    border-bottom: 3px solid #75a9f4;
 }
 
 .dropdown-menu>li>a{
   background-color: #fff !important;
+  font-weight: normal;
 }
 
 .navbar.container-fluid>.container-fluid, .navbar.container>.container {
@@ -65,6 +70,10 @@ h2{
   
 .menu .nav .navbar-nav{
  width: 100%;
+}
+
+.navbar-nav{
+
 }
   
 /* alterar fonte nas views com campos agrupados */  
